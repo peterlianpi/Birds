@@ -8,6 +8,9 @@ function Layout() {
   return (
     <>
       <Birds birds={birds} />
+      <footer className="bg-black text-white text-center p-4">
+        Copyright © 2024 Peter
+      </footer>
     </>
   );
 }
